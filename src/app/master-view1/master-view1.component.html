@@ -1,5 +1,5 @@
 <div class="row-layout row">
-  <igx-card type="outlined" [horizontal]="true" class="card">
+  <igx-card type="outlined" [horizontal]="true" *ngFor="let item of travelappImageSet1" class="card">
     <div class="column-layout">
       <igx-card-header>
         <igx-avatar [roundShape]="true" color="var(--igx-grays-800)" bgColor="var(--igx-grays-400)" size="small" icon="person" class="avatar"></igx-avatar>
@@ -11,7 +11,7 @@
       </igx-card-content>
     </div>
     <igx-card-media width="96px">
-      <img />
+      <img [src]="item.image_url" />
     </igx-card-media>
   </igx-card>
 </div>
