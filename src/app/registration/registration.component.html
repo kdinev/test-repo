@@ -1,0 +1,25 @@
+<div class="row-layout row">
+  <div class="column-layout column">
+    <h2 class="title">Register</h2>
+    <igx-input-group type="border" class="user-input">
+      <label igxLabel for="inputField">Username</label>
+      <input type="text" name="inputField" [required]="true" [disabled]="false" igxInput />
+    </igx-input-group>
+    <igx-input-group type="border" class="user-input">
+      <label igxLabel for="inputField">Email address</label>
+      <input type="email" name="inputField" [required]="true" [disabled]="false" igxInput />
+    </igx-input-group>
+    <igx-input-group type="border" class="user-input">
+      <label igxLabel for="inputField">Password</label>
+      <input type="password" name="inputField" [required]="true" [disabled]="false" igxInput />
+    </igx-input-group>
+    <igx-input-group type="border" class="user-input">
+      <label igxLabel for="inputField">Repeat Password</label>
+      <input type="password" name="inputField" [required]="true" [disabled]="false" igxInput />
+    </igx-input-group>
+    <a href target="_blank" class="link">Already registered? Login here.</a>
+    <button igxButton="raised" [disabled]="false" class="user-input">
+      <span>Register</span>
+    </button>
+  </div>
+</div>
