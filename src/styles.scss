@@ -15,7 +15,7 @@ html, body {
 
 $custom-palette: igx-palette(
   $primary: #03ff00,
-  $secondary: #1ce4c7);
+  $secondary: #e41c77);
 @include igx-theme($palette: $custom-palette, $schema: $light-schema);
 
 body {

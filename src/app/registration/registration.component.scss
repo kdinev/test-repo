@@ -1,0 +1,50 @@
+:host {
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+.row-layout {
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-width: 50px;
+  min-height: 50px;
+  flex: 0 0 auto;
+  align-items: stretch;
+}
+.column-layout {
+  justify-content: space-between;
+  width: 360px;
+  min-width: 320px;
+  min-height: 400px;
+  padding: 12px;
+  height: 500px;
+  align-items: stretch;
+}
+.title {
+  text-align: center;
+  margin: 0 12px;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.link {
+  text-align: right;
+  margin: 0 12px;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.user-input {
+  margin: 12px;
+  height: max-content;
+  min-width: min-content;
+  flex: 0 0 auto;
+}
+.row {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
