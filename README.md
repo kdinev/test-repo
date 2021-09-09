@@ -1,4 +1,4 @@
-# App Builder team collaboration demo
+# App Builder Team Collaboration demo
 
 This project was generated with [Indigo.Design App Builder Code Gen](https://www.infragistics.com/products/indigo-design/app-builder).
 
