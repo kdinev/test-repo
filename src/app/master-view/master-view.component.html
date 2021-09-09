@@ -36,15 +36,15 @@
     </igx-drop-down>
   </div>
   <div class="row-layout_2 row">
-    <button igxButton="raised" igxButtonColor="var(--igx-surface-500)" igxButtonBackground="var(--igx-grays-900)" [disabled]="false" [igxToggleAction]="section" class="button">
-      <igx-icon>add</igx-icon>
-      <span>Task</span>
-    </button>
     <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
       <igx-icon>add_alert</igx-icon>
     </button>
     <button igxButton="icon" type="icon" [disabled]="false" class="icon-button">
       <igx-icon>message</igx-icon>
+    </button>
+    <button igxButton="raised" igxButtonColor="var(--igx-surface-500)" igxButtonBackground="var(--igx-grays-900)" [disabled]="false" [igxToggleAction]="section" class="button">
+      <igx-icon>add</igx-icon>
+      <span>Task</span>
     </button>
     <igx-drop-down height="max-content" #section class="section">
       <igx-drop-down-item [disabled]="false" [isHeader]="false" class="dropdown-item">
@@ -98,7 +98,7 @@
           <label igxLabel for="inputField">Password</label>
           <input type="password" name="inputField" [required]="true" [disabled]="false" igxInput />
         </igx-input-group>
-        <a routerLink="/registration" class="link">Not registered yet?</a>
+        <a href target="_blank" routerLink="/registration" class="link">Not registered yet?</a>
         <button igxButton="raised" [disabled]="false" class="user-input">
           <span>Login</span>
         </button>
