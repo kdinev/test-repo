@@ -71,104 +71,115 @@
 .title {
   margin: 0 0 24px;
   min-width: min-content;
+  white-space: pre-wrap;
   height: max-content;
-  flex: 0 0 auto;
 }
 .calendar {
   margin: 0 0 32px;
   width: max-content;
-  flex: 1 0 auto;
   height: max-content;
 }
 .title_1 {
   color: #D4D5D9;
   flex: 1 0 auto;
   min-width: min-content;
+  white-space: pre-wrap;
   height: max-content;
 }
 .text {
   flex: 1 0 auto;
   min-width: min-content;
+  white-space: pre-wrap;
   height: max-content;
 }
 .title_2 {
   margin: 0 0 16px;
   min-width: min-content;
+  white-space: pre-wrap;
   height: max-content;
-  flex: 0 0 auto;
 }
 .title_3 {
   min-width: min-content;
+  white-space: pre-wrap;
   height: max-content;
-  flex: 0 0 auto;
-}
-.avatar {
-  flex: 0 0 auto;
 }
 .badge {
   width: max-content;
   height: max-content;
-  flex: 0 0 auto;
 }
 .list {
   margin: 0 0 16px;
   height: auto;
   min-width: max-content;
-  flex: 0 0 auto;
 }
 .list_1 {
   margin: 0 0 8px;
   height: auto;
   min-width: max-content;
-  flex: 0 0 auto;
 }
 .list-item {
   min-width: 0;
   min-height: 0;
-  flex: 0 0 auto;
+}
+.icon {
+  color: #E83180;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_1 {
+  color: #72DA67;
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
 }
 .button {
   margin: 0 0 16px;
   width: max-content;
   height: max-content;
   min-width: min-content;
-  flex: 0 0 auto;
 }
 .button_1 {
   margin: 0 0 8px;
   width: max-content;
   height: max-content;
   min-width: min-content;
-  flex: 0 0 auto;
 }
-.user-input {
-  margin: 0 8px 0 0;
-  flex: 0 0 auto;
-}
-.button_2 {
-  margin: 0 4px 0 0;
-  height: max-content;
-  min-width: min-content;
-  flex: 0 0 auto;
-}
-.button_3 {
-  width: max-content;
-  height: max-content;
-  min-width: min-content;
-  flex: 0 0 auto;
-}
-.button_4 {
-  height: max-content;
-  min-width: min-content;
-}
-.icon {
+.icon_2 {
+  color: var(--igx-grays-500);
   width: 24px;
   height: 24px;
   font-size: 24px;
-  flex: 0 0 auto;
 }
-.icon-button {
+.user-input {
+  margin: 0 8px 0 0;
+}
+.button_2 {
+  margin: 0 4px 0 0;
   flex: 0 0 auto;
+  height: max-content;
+  min-width: min-content;
+}
+.button_3 {
+  flex: 0 0 auto;
+  height: max-content;
+  min-width: min-content;
+}
+.button_4 {
+  width: max-content;
+  height: max-content;
+  min-width: min-content;
+}
+.icon_3 {
+  color: var(--igx-grays-700);
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+}
+.icon_4 {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
 }
 .row {
   display: flex;
