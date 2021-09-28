@@ -1,12 +1,11 @@
-import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule, HammerModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegistrationComponent } from './registration/registration.component';
-import { IgxInputGroupModule, IgxButtonModule } from 'igniteui-angular';
-import { FormsModule } from '@angular/forms';
+import { IgxInputGroupModule, IgxButtonModule } from "igniteui-angular";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
