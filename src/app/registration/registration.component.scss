@@ -5,21 +5,21 @@
 }
 .row-layout {
   justify-content: center;
+  align-items: center;
   position: relative;
   width: 100%;
   min-width: 50px;
   min-height: 50px;
   flex: 0 0 auto;
-  align-items: stretch;
 }
 .column-layout {
   justify-content: space-between;
+  align-items: stretch;
   width: 360px;
   min-width: 320px;
   min-height: 400px;
   padding: 12px;
   height: 500px;
-  align-items: stretch;
 }
 .title {
   text-align: center;
