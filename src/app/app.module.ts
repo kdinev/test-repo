@@ -3,13 +3,17 @@ import { BrowserModule, HammerModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyTasksComponent } from './my-tasks/my-tasks.component';
+import { IgxBadgeModule, IgxListModule, IgxIconModule, IgxButtonModule, IgxAvatarModule, IgxCalendarModule, IgxCardModule, IgxGridModule, IgxActionStripModule, IgxInputGroupModule, IgxToggleModule, IgxDropDownModule, IgxNavigationDrawerModule, IgxDialogModule } from 'igniteui-angular';
+import { FormsModule } from '@angular/forms';
+import { DashboardsComponent } from './dashboards/dashboards.component';
 import { RegistrationComponent } from './registration/registration.component';
-import { IgxInputGroupModule, IgxButtonModule } from "igniteui-angular";
-import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
+    MyTasksComponent,
+    DashboardsComponent,
     RegistrationComponent
   ],
   imports: [
@@ -17,9 +21,21 @@ import { FormsModule } from "@angular/forms";
     HammerModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    IgxInputGroupModule,
+    IgxBadgeModule,
+    IgxListModule,
+    IgxIconModule,
     IgxButtonModule,
-    FormsModule
+    IgxAvatarModule,
+    IgxCalendarModule,
+    FormsModule,
+    IgxCardModule,
+    IgxGridModule,
+    IgxActionStripModule,
+    IgxInputGroupModule,
+    IgxToggleModule,
+    IgxDropDownModule,
+    IgxNavigationDrawerModule,
+    IgxDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

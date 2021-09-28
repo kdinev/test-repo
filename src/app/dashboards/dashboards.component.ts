@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { TravelAppService } from '../../services/travel-app.service';
-import { NorthwindService } from '../../services/northwind.service';
+import { TravelAppService } from '../services/travel-app.service';
+import { NorthwindService } from '../services/northwind.service';
 
 @Component({
   selector: 'app-dashboards',
